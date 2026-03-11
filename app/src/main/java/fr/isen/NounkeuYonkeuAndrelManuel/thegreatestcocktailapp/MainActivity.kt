@@ -172,7 +172,7 @@ fun TGTopAppBar(
                 IconButton(onClick = {
                     onRandom()
                     scope.launch {
-                        snackbarHostState.showSnackbar("Nouveau cocktail ✨")
+                        snackbarHostState.showSnackbar("Nouveau cocktail ")
                     }
                 }) {
                     Icon(Icons.Default.Refresh, contentDescription = "Random")
