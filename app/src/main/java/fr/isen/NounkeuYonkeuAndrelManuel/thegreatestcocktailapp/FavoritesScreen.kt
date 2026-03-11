@@ -36,7 +36,7 @@ fun FavoritesScreen(modifier: Modifier = Modifier) {
 
     if (state.favorites.isEmpty()) {
         Box(modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-            Text("Aucun favori pour l’instant 🥲")
+            Text("Aucun favori")
         }
         return
     }
@@ -95,7 +95,7 @@ fun FavoritesScreen(modifier: Modifier = Modifier) {
                     ) {
                         Icon(
                             imageVector = Icons.Default.Delete,
-                            contentDescription = "Supprimer favori"
+                            contentDescription = "Supprimer "
                         )
                     }
                 }
