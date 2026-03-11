@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TheGreatestCocktailApp</string>
+    <string name="title_activity_drinks_list">DrinksListActivity</string>
+    <string name="title_activity_cocktail_detail">CocktailDetailActivity</string>
+</resources>
